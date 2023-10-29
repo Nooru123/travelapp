@@ -84,7 +84,7 @@ class _loginState extends State<login> {
                         Navigator.push(context, MaterialPageRoute(builder: (context)=>Bottompage()));
 
                       }else{
-                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("All feals requird")));
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("All fields requird")));
                       }
                     },
                     child: Container(
